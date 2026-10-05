@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Do Dev ao Deploy',
+  title: 'Do Dev á Deploy',
   description: 'Django + Next.js + PostgreSQL + Nginx',
 };
 
