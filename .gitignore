@@ -9,3 +9,6 @@ backend/staticfiles/
 nginx/certs/*.key
 nginx/certs/*.crt
 .DS_Store
+.firebase/
+*-credentials.json
+*.secret.json

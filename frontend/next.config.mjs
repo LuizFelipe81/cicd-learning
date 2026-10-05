@@ -1,6 +1,8 @@
+const isStatic = process.env.STATIC_EXPORT === 'true';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: isStatic ? 'export' : 'standalone',
 };
 
 export default nextConfig;
