@@ -1,0 +1,10 @@
+.git
+__pycache__
+*.pyc
+venv
+.venv
+.env
+.env.*
+staticfiles
+.flake8
+Dockerfile*
